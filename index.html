@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+  
+  
+  <link rel="india-icon" sizes="180x180" href="./assets/lg.png">
+  <link href="./assets/favicon.ico" rel="icon">
+
+
+  <title>Pure India</title>
+
+  <link href="./main.550dcf66.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <!--Map-->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js" integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw==" crossorigin=""></script>
+</head>
+
+<body> <!-- Add your content of header -->
+<header>
+  <nav class="navbar navbar-default active">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="./index.html" title="">
+          <img src="./assets/lg.png" class="navbar-logo-img" alt="" width="120" height="120">
+        </a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#mo" title="">Mise en œuvre</a></li>
+          <li><a href="#ou" title="">Où ?</a></li>
+          <li><a href="#chrono" title="">Chronologie</a></li>
+          <li><a href="#qui" title="">Qui sommes-nous ?</a></li>
+          <li>
+            <p>
+              <a href="#About" class="btn btn-default navbar-btn" title="">Découvrir</a>
+            </p>
+          </li>
+
+        </ul>
+      </div> 
+    </div>
+  </nav>
+</header>
+
+<!-- Add your site or app content here -->
+  <div class="hero-full-container background-image-container white-text-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <img src="./assets/logo.png" class="navbar-logo-text" alt="" width="450" height="450">
+          <p class="center"> <strong>Optimize clean water.</strong></p>
+          <br><br>
+          <a href="https://mailchi.mp/e71e1cb39697/purindia" class="btn btn-default btn-lg" title="" id="About">Suivez notre projet</a>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+ <!--découvrir-->
+  <div class="section-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-8 col-md-offset-2">
+          <div class="text-center">
+            <h2>Découvrir</h2>
+            <p>
+            Dans ce monde d’expert, les problèmes sont réglés par des spécialistes. Cependant, il y a des solutions qui n’existent qu’à la croisée des disciplines. Afin d’innover pour le mieux, nous allons combiner 2 mondes nous impactant au quotidien : <strong>l’eau et l’informatique.</strong><br><br>Nous souhaitons tout simplement optimiser la production d’eau propre et la puissance de calculs dans le pays qui en a la plus forte nécessité : <strong>L’Inde.</strong><br><br>Avant de rentrer dans les détails, voici quelques spécificités que vous devez connaître sur nos 2 domaines :</p>
+          </div>
+       </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-container">
+    <div class="container">
+      <div class="row">      
+          <div class="col-xs-12">
+
+
+            <div id="carousel-example-generic" class="carousel carousel-fade slide" data-ride="carousel">
+                
+                <div class="carousel-inner" role="listbox">
+
+                    <div class="item active">
+                        <img class="img-responsive" src="./assets/data.jpg" alt="Premiere slide">
+                        <div class="carousel-caption card-shadow reveal">
+                          
+                          <h3>Centre de données</h3>
+                          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                            <span class="sr-only">Next</span>
+                          </a>
+                          <p>
+                            Nous sommes dans l’ère du numérique. La marche d’internet semble ne se plier devant aucune crise et la demande de ses infrastructures semble insatiable. <br>
+                            Pour nourrir cette demande, des moyens colossaux en énergie et en méthode de refroidissement sont instaurés. L’Inde, parmi quelques autres pays, s’impose comme étant l’Hardware de notre planète. <strong>Le chiffre d’affaires du cloud indien dépasse ainsi les 4 milliards de dollars[1].</strong>
+
+                          </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive" src="./assets/dirty.jpg" alt="Seconde slide" >
+                        <div class="carousel-caption card-shadow reveal">
+
+                          <h3>Traitement de l'eau</h3>
+                            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                              <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                              <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                              <span class="sr-only">Next</span>
+                            </a>
+                          <p>
+                            De nombreuses crises sanitaires se constituent à cause d’un traitement d’eau potable médiocre. Cela se passe dans de nombreux pays tels que l’Inde. Les manques hygiéniques sont un foyer pour les maladies et un fardeau pour les populations locales. <br>
+                            La raison de cette carence en infrastructure hydraulique est de nature économique. Même si un surplus d’énergie peut en sortir, <strong>le coût de stockage de cette énergie rend sa rentabilité ridicule.</strong>
+
+                          </p>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+
+           
+          </div>
+          
+        </div>  
+      
+    </div>
+
+  </div>
+    <div class="section-container">
+    <div class="container">
+      <div class="row section-container-spacer">
+        <div class="col-xs-12 col-md-8 col-md-offset-2">
+          <div class="section-container-spacer">
+            <p>Les processus de traitement de l’eau peuvent être excédentaires en énergie grâce à un système de turbine et de surélévation de l’infrastructure. Cette surélévation permet une pression physique sur son débit astronomique, ce qui produit l’énergie. <br> <br>
+            Malgré cela, comme évoquer ci-dessus, il faut savoir que pour les énergies, dites renouvelables et plus spécialement les énergies hydroélectriques, le stockage de l’énergie est problématique [2].<br><br>
+            Ainsi le cœur de notre projet consiste à maintenir des machines informatiques<strong> à flux constant</strong> [3] afin de passer outre la partie contraignante du stockage.<br><br>Ensuite, cette puissance de stockage ou de calcul peut être utilisée pour rentabiliser les coûts globaux du traitement de l’eau, puis permettre aux populations locales <strong>d’avoir accès à une eau propre à moindre risque de transmission de maladie pour moins chère.</strong>
+            </p>
+          </div>  
+          <div class="goutte">
+            <svg id="Droplet" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 -16 286.4 389.9" xml:space="preserve">
+                <defs>
+                 <linearGradient id="Droplet-shadowGradient" fill-opacity="0.25" gradientUnits="userSpaceOnUse" x1="67.4893" y1="359.2395" x2="218.987" y2="359.2395">
+                   <stop offset="0" style="stop-color:#005DFF;stop-opacity:0.15"/>
+                   <stop offset="0.4364" style="stop-color:#0068FF;stop-opacity:8.453682e-02"/>
+                   <stop offset="1" style="stop-color:#0072FF;stop-opacity:0"/>
+                 </linearGradient>
+                 <linearGradient id="Droplet-topGradient" gradientUnits="userSpaceOnUse" x1="28.0693" y1="157.3193" x2="258.1405" y2="157.3193">
+                   <stop offset="0" style="stop-color:#FFFFFF;stop-opacity:0.2"/>
+                   <stop offset="5.973756e-02" style="stop-color:#FFFFFF;stop-opacity:0.2478"/>
+                   <stop offset="1" style="stop-color:#FFFFFF"/>
+                 </linearGradient>
+                 <linearGradient id="Droplet-lineGradient" gradientUnits="userSpaceOnUse" x1="143.4608" y1="311.1732" x2="143.4608" y2="-9.094947e-13">
+                   <stop offset="0.2338" style="stop-color:#0072FF"/>
+                   <stop offset="0.6262" style="stop-color:#166678"/>
+                 </linearGradient>
+                 <linearGradient id="Droplet-bottomGradient" gradientUnits="userSpaceOnUse" x1="143.1049" y1="301.1732" x2="143.1049" y2="83.1643">
+                   <stop offset="0" style="stop-color:#0072FF;stop-opacity:0.4"/>
+                   <stop offset="1" style="stop-color:#0072FF;stop-opacity:0"/>
+                 </linearGradient>
+                </defs>
+                <style type="text/css">
+                  .Droplet-shadow{fill:url(#Droplet-shadowGradient);}
+                  .Droplet-outerDot{fill:#0072FF;}
+                  .Droplet-line{fill:none;stroke:#0072FF;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:0,5;}
+                  .Droplet-border{fill:none;stroke:url(#Droplet-lineGradient);stroke-linecap:round;stroke-miterlimit:10;}
+                  .Droplet-top{fill:url(#Droplet-topGradient);}
+                  .Droplet-bottom{fill:url(#Droplet-bottomGradient);}
+                  .Droplet-circle{fill-rule:evenodd;clip-rule:evenodd;fill:#0072FF;}
+                </style>
+                <g id="Droplet-shadow">
+                  <ellipse class="Droplet-shadow" cx="143.2" cy="359.2" rx="75.7" ry="14.7"/>
+                </g>
+                <g id="Droplet-boundingShape">
+                  <g id="Droplet-backgroundRings">
+                    <g class="Droplet-background1">
+                      <path class="Droplet-line" d="M98.7,29.8c7.2-3,24.4-5.1,44.5-5.1c22.6,0,41.5,2.7,46.7,6.3"/>
+                    </g>
+                    <g class="Droplet-background2">
+                      <path class="Droplet-line" d="M50.5,74.6c9.6-8.6,47.5-15,92.7-15c48.5,0,88.6,7.4,94.4,16.9"/>
+                    </g>
+                    <g class="Droplet-background3">
+                      <path class="Droplet-line" d="M11.1,132.8c11-12.2,65.9-21.4,132.1-21.4c69.8,0,127.2,10.3,133.5,23.5"/>
+                    </g>
+                    <g class="Droplet-background4">
+                      <path class="Droplet-line" d="M2.8,201.3c11.6-12.2,70-21.4,140.4-21.4c74.2,0,135.1,10.3,141.8,23.5"/>
+                    </g>
+                    <g class="Droplet-background5">
+                      <path class="Droplet-line" d="M33.7,263.4c10.6-9.3,55.6-16.3,109.5-16.3c57.5,0,104.8,7.9,111.2,18.1"/>
+                    </g>
+                  </g>
+                  <g id="Droplet-shape">
+                    <path class="Droplet-border" d="M21.7,188.9C21.7,97.7,143.5,0.6,143.5,0.6s121.8,100.2,121.8,188.3c0,67.3-54.5,121.8-121.8,121.8
+                      S21.7,256.2,21.7,188.9z"/>
+                    <path class="Droplet-top" d="M28.1,188.7c0-86.2,115-177.9,115-177.9s115,94.7,115,177.9c0,63.5-51.5,115-115,115S28.1,252.3,28.1,188.7z"
+                      />
+                    <path class="Droplet-bottom" d="M28.1,188.7c0-86.2,115-177.9,115-177.9s115,94.7,115,177.9c0,63.5-51.5,115-115,115S28.1,252.3,28.1,188.7z"
+                      />
+                  </g>
+                  <g id="Droplet-foregroundRings">
+                    <g class="Droplet-foreground1">
+                      <circle class="Droplet-outerDot" cx="191.2" cy="32.9" r=".75" />
+                      <path class="Droplet-line" d="M187.7,36c-7.2,3-24.4,5.1-44.5,5.1c-22.6,0-41.5-2.7-46.7-6.3"/>
+                      <circle class="Droplet-outerDot" cx="95.1" cy="32.9" r=".75" />
+                    </g>
+                    <g class="Droplet-foreground2">
+                      <circle class="Droplet-outerDot" cx="238.3" cy="78.8" r=".75"/>
+                      <path class="Droplet-line" d="M235.9,83.1c-9.6,8.6-47.5,15-92.7,15c-48.5,0-88.6-7.4-94.4-16.9"/>
+                      <circle class="Droplet-outerDot" cx="48.1" cy="78.8" r=".75"/>
+                    </g>
+                    <g class="Droplet-foreground3">
+                      <circle class="Droplet-outerDot" cx="277.2" cy="137.2" r=".75"/>
+                      <path class="Droplet-line" d="M275.2,141.7c-11,12.2-65.9,21.4-132.1,21.4c-69.8,0-127.2-10.3-133.5-23.5"/>
+                      <circle class="Droplet-outerDot" cx="9.1" cy="137.2" r=".75"/>
+                    </g>
+                    <g class="Droplet-foreground4">
+                      <circle class="Droplet-outerDot" cx="285.6" cy="205.8" r=".75"/>
+                      <path class="Droplet-line" d="M283.5,210.2c-11.6,12.2-70,21.4-140.4,21.4C69,231.7,8.1,221.4,1.4,208.2"/>
+                      <circle class="Droplet-outerDot" cx="0.8" cy="205.8" r=".75"/>
+                    </g>
+                    <g class="Droplet-foreground5">
+                      <circle class="Droplet-outerDot" cx="255.1" cy="267.6" r=".75"/>
+                      <path class="Droplet-line" d="M252.7,271.8c-10.6,9.3-55.6,16.3-109.5,16.3c-57.5,0-104.8-7.9-111.2-18.1"/>
+                      <circle class="Droplet-outerDot" cx="31.3" cy="267.6" r=".75"/>
+                    </g>
+                  </g>
+                  <g id="Dots">
+                    <circle data-group="1" class="Droplet-circle" cx="143" cy="41.5" r="3"/>
+                    <circle data-group="3" class="Droplet-circle" cx="143" cy="163.4" r="3"/>
+                    <circle data-group="2" class="Droplet-circle" cx="143" cy="97.9" r="3"/>
+                    <circle data-group="4" class="Droplet-circle" cx="143" cy="232" r="3"/>
+                    <circle data-group="5" class="Droplet-circle" cx="143" cy="288.5" r="3"/>
+                  </g>
+                </g>
+              </svg>
+            </div>
+          <div>
+            <br>
+            <p>
+            Nous sommes alertes de la difficulté que cette mission représente. Nous comptons sur notre approche multidisciplinaire afin d’élucider chacun des murs auxquelles nous allons faire face.<br><br>
+            Les risques majeurs (comme les températures hautes, le rejet provisoire de la population, ou des problèmes plus techniques tels que la précision de la soudure ou encore la diffusion intelligente de l’eau) nous paraissent tous parfaitement surmontables. Nous avons déjà conceptualisé des solutions réalistes. <br><br>
+            À travers <strong>notre approche éclectique</strong>, nous souhaitons entamer le chantier d’une solution que nous estimons indispensable aux futurs enjeux de ce monde.
+            </p><br>
+          </div>  
+          <img src="./assets/D.jpg" alt="" class="img-responsive reveal-content" data-action="zoom">
+          <div id="mo"></div>
+        </div>  
+      </div>
+    </div>
+  </div>
+
+  <!--Mise en oeuvre-->
+  <div class="section-container">
+    <div class="container">
+      <div class="row section-container-spacer">
+        <div class="col-xs-12 col-md-8 col-md-offset-2">
+          <h2 class="text-center">Mise en œuvre</h2>
+          <div class="section-container-spacer">
+            <div>
+              <ul class="cards">
+                <li class="cards__item">
+                  <div class="card">
+                    <div class="card__image card__image--etape1"></div>
+                    <div class="card__content">
+                      <div class="card__title">1)<br> Installation du site</div>
+                      <p class="card__text">
+                        1.1)Réserver un terrain à proximité de la rivière <br><br>
+                        1.2)Importer du matériel de séjour <br><br>
+                        1.3)Monter un atelier de soudage proche du site <br><br>
+                        1.4)Etudier le sol (par ex. en cas de nappe phréatique le projet tombera à l’eau) <br><br>
+                        1.5)S’accorder avec les autorités locales afin de réaliser le projet
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="cards__item">
+                  <div class="card">
+                    <div class="card__image card__image--etape2"></div>
+                    <div class="card__content">
+                      <div class="card__title">2)<br>Impacte social</div>
+                      <p class="card__text">
+                      2.1)Trouver de la main-d’œuvre locale pour construire les structures <br><br>
+                      2.2)Sensibiliser la population à notre projet avec des panneaux publicitaires, des affiches,...<br><br>
+                      2.3)Augmenter notre présence sur YouTube </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="cards__item">
+                  <div class="card">
+                    <div class="card__image card__image--etape3"></div>
+                    <div class="card__content">
+                      <div class="card__title">3)<br>Construction</div>
+                      <p class="card__text">
+                      3.1)Etablir des plans détaillés<br><br>
+                      3.2)Creuser pour placer l’infrastructure<br><br>
+                      3.3)Mettre un système d’accès à l’eau de la rivière<br><br>
+                      3.4)Installer un système de commande pour contrôler le débit<br><br>
+                      3.5)Fixer les turbines pour capter l’énergie
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="cards__item">
+                  <div class="card">
+                    <div class="card__image card__image--etape4"></div>
+                    <div class="card__content">
+                      <div class="card__title">4)<br>Informatique</div>
+                      <p class="card__text">
+                      4.1)Créer un datacenter (et l’installer sous terre)<br><br>
+                      4.2)Avoir des softwares de datacenter décentralisés (en cas de panne ou de défaut)<br><br>
+                      4.3)Mettre des logiciels de monitoring (retour en temps réel des performances)<br><br>
+                      4.4)Bâtir un serveur centralisé à la surface
+                       </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="cards__item">
+                  <div class="card">
+                    <div class="card__image card__image--etape5"></div>
+                    <div class="card__content">
+                      <div class="card__title">5)<br>Durabilité de l’infrastructure</div>
+                      <p class="card__text">
+                        5.1)Créer un accès facilité aux datacenters<br><br>
+                        5.2)Mettre en place le système de watercooling<br><br>
+                        5.3)Faire des soudures solides<br><br>
+                        5.4)Créer un stockage d’eau propre à la surface 
+                        </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="cards__item">
+                  <div class="card">
+                    <div class="card__image card__image--etape6"></div>
+                    <div class="card__content">
+                      <div class="card__title">6)<br>Test</div>
+                      <p class="card__text">
+                        Des tests et encore des tests…<br><br>
+                        Vérifier les débits, la rentabilité énergétique, la production d'eau propre, la propreté de cette eau, la capacité de stockage des datacenters etc...
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <br>
+            <p>Le datacenter recevra, dans des bassins souterrains, l’eau en pente afin de créer une force motrice pour les turbines qui créeront ensuite de l’énergie pour les datacenters, <strong>plus la pente sera descendante, plus la force motrice sera productrice d’énergie.</strong><br><br>
+
+            L’énergie pour alimenter les datacenters seront produit par la force motrice de l’eau, le refroidissement sera produit avec un système de watercooling, c’est-à-dire que l’eau froide passera dans des tuyaux afin de refroidir les machines.<br><br>
+
+            L’étanchéité des matériaux sera un grand obstacle, car s’il y a une fuite, le système ne fonctionnera plus, donc il faudra privilégier un métal au lieu de mélanger plusieurs métaux, afin d’éviter la corrosion.
+            </p>
+          </div>  
+          <img src="./assets/M7.jpg" alt="" class="img-responsive reveal-content" data-action="zoom">
+          <div class="section-container-spacer">
+            <br>
+            <p>Le serveur à la surface sert d’auxiliaire pour essentiellement distribuer les processus aux différents serveurs souterrains.<br><br>
+            Il est important à noter que l’eau de la rivière <strong>ne sera jamais stockée, ce sera un flux continu entre chaque étape, jusqu’au basin à la surface</strong>.<br><br>
+
+            L’eau qui passera dans les bassins se purifiera à chaque étape jusqu’à donner une eau potable qui sera ensuite redistribuée à la population.<br><br>
+            Nous nous engageons à donner nos compétences techniques, ainsi qu’une partie de nos ressources personnelles dans la mise en œuvre de ce projet, tel que les softwares ou le datacenter central par exemple.
+            </p>
+            <div id="ou"></div>
+          </div>  
+        </div>  
+      </div>
+    </div>
+  </div>
+
+  <!--Ou ?-->
+  <div class="section-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-8 col-md-offset-2">
+          <h2 class="text-center">Où ?</h2>
+          <div id="mapDiv"></div>
+          <br>
+          <p>Notre projet Pur’India se passera en <strong>Inde</strong>, car c’est le pays qui contient <strong>7 villes sur les 10 les plus polluées au monde</strong> alors que c’est également le pays avec le <strong>plus grand nombre d’informaticiens</strong>. <br>
+          C’est pour cela que nous voulons<strong> réduire cet écart</strong> entre <strong>l’hygiène du pays et son niveau technologique.</strong><br><br>
+
+          Le projet se fera plus précisément à <strong>Jana Para dans Calcutta</strong>, au Nord du pays. La ville est située sur la rive gauche du <strong>fleuve Hooghly</strong>, elle compte 4,4 millions d’habitants et son agglomération 14 millions.<br><br>
+
+          La langue locale est le Bengali, mais quasiment toute la population parle l’hindi, qui est la langue officielle de l’Inde. De plus, la plupart des Indiens savent se débrouiller en anglais, ce qui facilite les relations avec la population locale. <br>
+          Mais afin de faire en sorte que les locaux soient en accord avec notre projet et qu’ils ne ralentissent pas le projet, nous allons engager <strong>un traducteur qui fera un panneau d’explication et qui sera notre porte-parole</strong>.<br><br>
+
+          Nous avons pour but d’entrer en contact avec <strong>Tata Communications Kolkat</strong>, puisqu’ils détiennent un data center pas loin de notre lieu de construction. Nous leur proposerons un partenariat pour<strong> améliorer leur centre de données afin de réduire les coûts et le rendre plus environnemental</strong>.<br><br>
+
+          Leur centre de données sera déplacé de quelques kilomètres pour qu’il soit au bord du fleuve Hooghly, cela raccourcira le chemin d’extraction et purification de l’eau, de ce fait les coûts liés seront réduits.<br><br>
+
+          Nous avons choisi <strong>un terrain assez plat</strong> pour faciliter les travaux, mais nous avons également <strong>étudié la topographie</strong> afin de ne pas avoir de mauvaises surprises et d’être sûrs que le terrain convient pour le projet. De ce fait, nous avons vérifié à ce qu’il n’y ait<strong> pas de grottes ni de nappes en dessous</strong>, ce qui pourrait entraver la construction. <br><br>
+
+          La ville a <strong>un climat tropical</strong>, la température moyenne annuelle est de 26,9 °C et varie <strong>entre 13,8 °C et 26,5 °C</strong>. Ce sont donc des températures assez élevées. Mais étant donné que la structure de purification <strong>sera sous terre</strong>, cela ne devrait pas poser trop de problèmes.<br><br>
+
+          Pour ce projet, nous avons mis en place <strong>un budget de 75 000 euros</strong>, qui sera principalement utilisé <strong>pour le matériel et la main d’œuvre</strong>. Il peut paraître restreint pour une telle construction, mais il ne faut pas oublier qu’il sera fait en Inde, où <strong>les coûts sont considérablement dérisoires</strong> en comparaison à la Suisse.
+          </p>
+          <br>
+          <div class="section-container-spacer">
+            <img src="./assets/O1.jpg" alt="" class="img-responsive reveal-content" data-action="zoom">
+          </div>
+
+          <div class="row">
+            <div class="col-xs-6">
+              <img src="./assets/O2.jpg" alt="" class="img-responsive reveal-content" data-action="zoom">
+            </div>
+            <div class="col-xs-6">
+              <img src="./assets/O3.jpg" alt="" class="img-responsive reveal-content" data-action="zoom">
+              <div id="chrono"></div>
+            </div>
+          </div>
+       </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!---Chronologie-->
+  <div class="section-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-8 col-md-offset-2">
+          <h2 class="text-center">Chronologie</h2>
+          <div class="expand-water">
+            <svg version="1.1" id="Features-SVG" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2005.4 777" xml:space="preserve">
+              <defs>
+                <radialGradient id="Features-innerGradient" cx="430.5514" cy="426.0181" r="315.285" gradientTransform="matrix(2.8565 -0.5119 1.0216 1.739 -364.7661 -340.7328)" gradientUnits="userSpaceOnUse">
+                  <stop offset="0" style="stop-color:#0072FF;stop-opacity:0.2"/>
+                  <stop offset="1" style="stop-color:#0072FF;stop-opacity:0"/>
+                </radialGradient>
+
+                <radialGradient id="Features-bottomGradient" cx="279.3484" cy="483.3498" r="459.4102" gradientTransform="matrix(2.8947 -0.4418 0.494 0.9873 -202.5029 -91.6635)" gradientUnits="userSpaceOnUse">
+                  <stop offset="0" style="stop-color:#0072FF"/>
+                  <stop offset="1" style="stop-color:#0072FF;stop-opacity:0"/>
+                </radialGradient>
+
+                <linearGradient id="Features-rightGradient" gradientUnits="userSpaceOnUse" x1="1640.8595" y1="373.64" x2="2001.5594" y2="373.64" gradientTransform="matrix(1 0 0 -1 0 763.7801)">
+                  <stop offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+                  <stop offset="1" style="stop-color:#FFFFFF"/>
+                </linearGradient>
+
+                <linearGradient id="Features-dropletLineGradient" gradientUnits="userSpaceOnUse" x1="977.4597" y1="777.3409" x2="977.4597" y2="510.8409">
+                  <stop offset="0" style="stop-color:#0072FF;stop-opacity:0"/>
+                  <stop offset="1" style="stop-color:#0072FF"/>
+                </linearGradient>
+
+                <linearGradient id="Features-leftGradient" gradientUnits="userSpaceOnUse" x1="1.3595" y1="373.64" x2="362.0595" y2="373.64" gradientTransform="matrix(1 0 0 -1 0 763.7801)">
+                  <stop offset="0" style="stop-color:#FFFFFF"/>
+                  <stop offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+                </linearGradient>
+              </defs>
+              <style type="text/css">
+                .Features-gradientGroup1 {
+                  opacity: 0.6;
+                }
+                .Features-gradientGroup2 {
+                  opacity: 0.2;
+                }
+                .Features-bottomGradientShape {
+                  fill: url(#Features-bottomGradient);
+                }
+                .Features-innerGradientShape {
+                  fill: url(#Features-innerGradient);
+                }
+                .Features-dottedWaveShape {
+                  fill: none;
+                  stroke: #C8E2FF;
+                  stroke-width: 1.5;
+                  stroke-linecap: round;
+                  stroke-miterlimit: 10;
+                  stroke-dasharray: 0,5;
+                }
+                .Features-blueStroke {
+                  fill: none;
+                  stroke: #0072FF;
+                  stroke-linecap: round;
+                  stroke-miterlimit: 10;
+                }
+                .Features-dropletLine {
+                  fill: none;
+                  stroke: url(#Features-dropletLineGradient);
+                  stroke-width: 1.5;
+                  stroke-linecap: round;
+                  stroke-miterlimit: 10;
+                  stroke-dasharray: 0,5;
+                }
+                .Features-whiteWaveLine {
+                  fill: none;
+                  stroke: #FFFFFF;
+                  stroke-width: 16;
+                  stroke-miterlimit: 10;
+                }
+                .Features-dot {
+                  fill: #0072FF;
+                }
+                .Features-rightGradientShape {
+                  fill: url(#Features-rightGradient);
+                }
+                .Features-leftGradientShape {
+                  fill: url(#Features-leftGradient);
+                }
+              </style>
+              
+              <g id="Gradient_Wave_Fill">
+                <g class="Features-gradientGroup Features-gradientGroup1">
+                  <path
+                    class="Features-bottomGradientShape"
+                    d="M1917.4,109.1c-45.4,45.3-57.8,106.8-150,126.3c-85.6,18.1-84.8,136-143.8,136c-82,0-106,160-193,160
+                  c-37,0-41-22-91-22c-68,0-86,81-149,81c-43,0-49-27-92-27s-65,32-116,32s-62-41-140-41c-103,0-143,98-196,98c-40,0-39-30-72-30
+                  c-32,0-37,37-87,37c-54.3,0-81-68-123-68c-43,0-65.3,85.3-124,91c-41.2,4-51.2-15-77.2-9c-39.5,9.1-43.1,65.6-91,69
+                  c-42,3-43.6-30-69.8-30l-0.2,64h1999v-711C1998.4,65.3,1961,65.6,1917.4,109.1z"/>
+                  <path
+                    class="Features-innerGradientShape"
+                    d="M1916.4,109.1c-45.4,45.3-57.8,106.8-150,126.3c-85.6,18.1-84.8,136-143.8,136c-82,0-106,160-193,160
+                  c-37,0-41-22-91-22c-68,0-86,81-149,81c-43,0-49-27-92-27s-65,32-116,32c-51,0-62-41-140-41c-103,0-143,98-196,98
+                  c-40,0-39-30-72-30c-32,0-37,37-87,37c-54.3,0-81-68-123-68c-43,0-65.3,85.3-124,91c-41.2,4-51.2-15-77.2-9
+                  c-39.5,9.1-43.1,65.6-91,69c-42,3-43.6-30-69.8-30l-0.2,64h2000v-711C1998.4,65.3,1960,65.6,1916.4,109.1z"/>
+                </g>
+                <g class="Features-gradientGroup Features-gradientGroup2">
+                  <path
+                    class="Features-bottomGradientShape"
+                    d="M1917.4,109.1c-45.4,45.3-57.8,106.8-150,126.3c-85.6,18.1-84.8,136-143.8,136c-82,0-106,160-193,160
+                  c-37,0-41-22-91-22c-68,0-86,81-149,81c-43,0-49-27-92-27s-65,32-116,32s-62-41-140-41c-103,0-143,98-196,98c-40,0-39-30-72-30
+                  c-32,0-37,37-87,37c-54.3,0-81-68-123-68c-43,0-65.3,85.3-124,91c-41.2,4-51.2-15-77.2-9c-39.5,9.1-43.1,65.6-91,69
+                  c-42,3-43.6-30-69.8-30l-0.2,64h1999v-711C1998.4,65.3,1961,65.6,1917.4,109.1z"/>
+                  <path
+                    class="Features-innerGradientShape"
+                    d="M1916.4,109.1c-45.4,45.3-57.8,106.8-150,126.3c-85.6,18.1-84.8,136-143.8,136c-82,0-106,160-193,160
+                  c-37,0-41-22-91-22c-68,0-86,81-149,81c-43,0-49-27-92-27s-65,32-116,32c-51,0-62-41-140-41c-103,0-143,98-196,98
+                  c-40,0-39-30-72-30c-32,0-37,37-87,37c-54.3,0-81-68-123-68c-43,0-65.3,85.3-124,91c-41.2,4-51.2-15-77.2-9
+                  c-39.5,9.1-43.1,65.6-91,69c-42,3-43.6-30-69.8-30l-0.2,64h2000v-711C1998.4,65.3,1960,65.6,1916.4,109.1z"/>
+                </g>
+              </g>
+
+              <g id="Background_Dotted_Wave">
+                <path
+                  class="Features-dottedWaveShape"
+                  d="M1.6,748.4c95.2,0,78.8-77,147.3-88c37-5.9,58,22,90.7,22c59,0,78.4-145.9,121.4-145.9
+                c42,0,71.2,162,125.6,162c50,0,55-104,87-104c33,0,32,30.3,72,30.3c53,0,83.1-88.4,166.5-88.4c80.1,0,99.4,84.1,148.5,97.7
+                c52,14.4,94-43.2,137-43.2s49,31.4,92,31.4c63,0,76-113.3,141-133.2c43-13.2,62,19.6,99,19.6c87,0,111-182.5,193-182.5
+                c59,0,71.2-202.3,136-217.2c46.8-10.7,89.8,13.3,136.8-29.7c44.8-41,68.4-64,106.2-64"/>
+              </g>
+              <g class="Features-dropletLineGroup" id="Features-dropletLine-1">
+                <path class="Features-blueStroke" d="M222.9,603.2c0-5.2,6.9-10.7,6.9-10.7s6.9,5.7,6.9,10.7c0,3.8-3.1,6.9-6.9,6.9S222.9,607,222.9,603.2z"/>
+                <line class="Features-dropletLine" x1="229.7" y1="609.6" x2="229.7" y2="776.6"/>
+              </g>
+              <g class="Features-dropletLineGroup" id="Features-dropletLine-2">
+                <path class="Features-blueStroke" d="M480.9,625.2c0-5.2,6.9-10.7,6.9-10.7s6.9,5.7,6.9,10.7c0,3.8-3.1,6.9-6.9,6.9S480.9,629,480.9,625.2z"/>
+                <line class="Features-dropletLine" x1="487.7" y1="635.7" x2="487.7" y2="776.6"/>
+              </g>
+              <g class="Features-dropletLineGroup" id="Features-dropletLine-3">
+                <path class="Features-blueStroke" d="M644.9,569.2c0-5.2,6.9-10.7,6.9-10.7s6.9,5.7,6.9,10.7c0,3.8-3.1,6.9-6.9,6.9S644.9,573,644.9,569.2z"/>
+                <line class="Features-dropletLine" x1="651.7" y1="582.6" x2="651.7" y2="776.6"/>
+              </g>
+              <g class="Features-dropletLineGroup" id="Features-dropletLine-4">
+                <path class="Features-blueStroke" d="M970.7,504.5c0-5.2,6.9-10.7,6.9-10.7s6.9,5.7,6.9,10.7c0,3.8-3.1,6.9-6.9,6.9
+                C973.9,511.4,970.7,508.3,970.7,504.5z"/>
+                <line class="Features-dropletLine" x1="977.5" y1="511.6" x2="977.5" y2="776.6"/>
+              </g>
+              <g class="Features-dropletLineGroup" id="Features-dropletLine-5">
+                <path class="Features-blueStroke" d="M1189.9,545.1c0-5.2,6.9-10.7,6.9-10.7s6.9,5.7,6.9,10.7c0,3.8-3.1,6.9-6.9,6.9S1189.9,549,1189.9,545.1z"/>
+                <line class="Features-dropletLine" x1="1196.7" y1="552.3" x2="1196.7" y2="776.6"/>
+              </g>
+              <g class="Features-dropletLineGroup" id="Features-dropletLine-6">
+                <path class="Features-blueStroke" d="M1421.9,426.2c0-5.2,6.9-10.7,6.9-10.7s6.9,5.7,6.9,10.7c0,3.8-3.1,6.9-6.9,6.9S1421.9,430,1421.9,426.2z"/>
+                <line class="Features-dropletLine" x1="1428.7" y1="432.6" x2="1428.7" y2="776.6"/>
+              </g>
+              <g class="Features-dropletLineGroup" id="Features-dropletLine-7">
+                <path class="Features-blueStroke" d="M1487.9,305.2c0-5.2,6.9-10.7,6.9-10.7s6.9,5.7,6.9,10.7c0,3.8-3.1,6.9-6.9,6.9S1487.9,309,1487.9,305.2z"/>
+                <line class="Features-dropletLine" x1="1494.7" y1="318.6" x2="1494.7" y2="776.6"/>
+              </g>
+              <g class="Features-dropletLineGroup" id="Features-dropletLine-8">
+                <path class="Features-blueStroke" d="M1633.9,154.2c0-5.2,6.9-10.7,6.9-10.7s6.9,5.7,6.9,10.7c0,3.8-3.1,6.9-6.9,6.9S1633.9,158,1633.9,154.2z"/>
+
+                <line class="Features-dropletLine" x1="1640.7" y1="167.6" x2="1640.7" y2="776.6"/>
+              </g>
+              <g class="Features-dropletLineGroup" id="Features-dropletLine-9">
+                <path class="Features-blueStroke" d="M1851.7,60.2c0-5.2,6.9-10.7,6.9-10.7s6.9,5.7,6.9,10.7c0,3.8-3.1,6.9-6.9,6.9S1851.7,64.1,1851.7,60.2z"/>
+                <line class="Features-dropletLine" x1="1858.5" y1="73.6" x2="1858.5" y2="776.6"/>
+              </g>
+              <g id="Features-whiteWave">
+                <path
+                  class="Features-whiteWaveLine"
+                  d="M2001.6,65.4c0,0-39.8-1.6-85.2,43.7s-57.8,106.8-150,126.3c-85.6,18.1-84.8,136-143.8,136
+                c-82,0-106,160-193,160c-37,0-41-22-91-22c-68,0-86,81-149,81c-43,0-49-27-92-27s-65,32-116,32c-51,0-62-41-140-41
+                c-103,0-143,98-196,98c-40,0-39-30-72-30c-32,0-37,37-87,37c-54.3,0-81-68-123-68c-43,0-65.3,85.3-124,91c-41.2,4-51.2-15-77.2-9
+                c-39.5,9.1-43.1,65.6-91,69c-42,3-43.6-30-69.8-30"/>
+              </g>
+              <g id="Features-blueLine">
+                <path
+                  class="Features-blueStroke"
+                  d="M2001.6,65.4c0,0-39.8-1.6-85.2,43.7s-57.8,106.8-150,126.3c-85.6,18.1-84.8,136-143.8,136
+                c-82,0-106,160-193,160c-37,0-41-22-91-22c-68,0-86,81-149,81c-43,0-49-27-92-27s-65,32-116,32c-51,0-62-41-140-41
+                c-103,0-143,98-196,98c-40,0-39-30-72-30c-32,0-37,37-87,37c-54.3,0-81-68-123-68c-43,0-65.3,85.3-124,91c-41.2,4-51.2-15-77.2-9
+                c-39.5,9.1-43.1,65.6-91,69c-42,3-43.6-30-69.8-30"/>
+              </g>
+              <g id="Features-dots">
+                <circle class="Features-dot" cx="0" cy="0" r="2.5"/>
+                <circle class="Features-dot" cx="0" cy="0" r="3.6"/>
+                <circle class="Features-dot" cx="0" cy="0" r="2.5"/>
+                <circle class="Features-dot" cx="0" cy="0" r="2.5"/>
+                <circle class="Features-dot" cx="0" cy="0" r="2.5"/>
+                <circle class="Features-dot" cx="0" cy="0" r="3.6"/>
+                <circle class="Features-dot" cx="0" cy="0" r="2.5"/>
+                <circle class="Features-dot" cx="0" cy="0" r="3.6"/>
+                <circle class="Features-dot" cx="0" cy="0" r="2.5"/>
+                <circle class="Features-dot" cx="0" cy="0" r="3.6"/>
+                <circle class="Features-dot" cx="0" cy="0" r="2.5"/>
+              </g>
+              <g id="Features-gradientBorders">
+                <rect x="1.4" y="3.9" class="Features-leftGradientShape" width="360.7" height="772.5"/>
+                <rect x="1640.9" y="3.9" class="Features-rightGradientShape" width="360.7" height="772.5"/>
+              </g>
+            </svg>
+          </div>
+          <br>
+          <p>L’idéal serait de commencer <strong>les discussions d’ici la fin du mois d’Avri</strong> avec un sponsor afin de partir sur les meilleures bases et en ce qui concerne ce projet qui nous tient tant à cœur. <strong>Les préparatifs devraient être finalisés avant la fin de l’année 2020. <br><br>Nous prendrons avant cette échéance contact avec le village afin de finaliser un accord</strong> et d’y amener tous les équipements nécessaires. <strong>En Juin prochain, nous nous rendrons au village afin de faire un état des lieux</strong>. <br><br>Le but est de prendre toutes les précautions nécessaires pour que le travail soit effectué de façon impeccable. C’est pourquoi nous estimons que<strong> ce projet verra le jour aux alentours de septembre 2021.</strong></p>
+          <div class="page">
+            <div class="timeline">
+              <div class="timeline__group">
+                <span class="timeline__year">2020</span>
+                <div class="timeline__box">
+                  <div class="timeline__date">
+                    <span class="timeline__day">25</span>
+                    <span class="timeline__month">Avril</span>
+                  </div>
+                  <div class="timeline__post">
+                    <div class="timeline__content">
+                      <p>Début des discussions.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="timeline__box">
+                  <div class="timeline__date">
+                    <span class="timeline__day">19</span>
+                    <span class="timeline__month">Oct.</span>
+                  </div>
+                  <div class="timeline__post">
+                    <div class="timeline__content">
+                      <p>Concrétisations.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline__group">
+                <span class="timeline__year">2021</span>
+                <div class="timeline__box">
+                  <div class="timeline__date">
+                    <span class="timeline__day">15</span>
+                    <span class="timeline__month">Juin</span>
+                  </div>
+                  <div class="timeline__post">
+                    <div class="timeline__content">
+                      <p>Départ pour l’Inde avec l’équipe.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="timeline__box">
+                  <div class="timeline__date">
+                    <span class="timeline__day">01</span>
+                    <span class="timeline__month">Sept.</span>
+                  </div>
+                  <div class="timeline__post">
+                    <div class="timeline__content">
+                      <p>Début du projet.</p>
+                      <div id="qui"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Qui sommes-nous?-->
+
+  <div class="section-container">
+    <div class="container text-center">
+      <div class="row section-container-spacer">
+        <div class="col-xs-12 col-md-12">
+          <h2>Qui sommes-nous ?</h2>
+          <p>Nous sommes 4 étudiants en informatique.<br><br>
+
+          Ce projet a pour but d’<strong>aider une population particulièrement pauvre</strong> en leur permettant de vivre de manière plus digne et plus propre en leur apportant de l’eau potable.<br>
+          Étant concernés par le manque d’optimisation des systèmes nous souhaitons leur apporter ce qui est pour nous, dans nos pays, complètement normal. <br><br>
+
+          Nous n’avons <strong>pas pour but la recherche de bénéfice pécuniaire.</strong> Nous cherchons à apporter <strong>une aide dans le développement de régions défavorisées</strong> sans que cela ne nous rapporte quoi que ce soit en terme financier. <br>Nous souhaitons y contribuer par le biais d’une <strong>eau filtrée par nos soins</strong>.<br><br>
+
+          Conscient qu’il s’agit là d’un gros projet, cela ne nous fait pas peur, nous ne le faisons pas pour notre égoïsme personnel. <br>
+          Nous le faisons pour tous ces gens en difficulté. 
+          </p>
+        </div>  
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-md-4">
+          <img src="./assets/images/profil-01.jpg" alt="" class="reveal img-responsive reveal-content image-center" width="225px" height="225px">
+          <h3>Matteo C.</h3>
+          <h4>Un collaborateur investi.</h4>
+          <p></p>
+        </div>
+       
+        <div class="col-xs-12 col-md-4">
+          <img src="./assets/images/profil-02.jpeg" alt="" class="reveal img-responsive reveal-content image-center" width="225px" height="225px">
+          <h3>Patrick C.</h3>
+          <h4>Un collaborateur expert en données.</h4>
+          <p></p>
+        </div>
+        <div class="col-xs-12 col-md-4">
+          <img src="./assets/images/profil-03.jpeg" alt="" class="reveal img-responsive reveal-content image-center" width="225px" height="225px">
+          <h3>Mohammed A.</h3>
+          <h4>Un collaborateur aimant.</h4>
+          <p></p>
+        </div>
+        <div class="col-xs-12 col-md-4">
+          <img src="./assets/images/gyan.jpg" alt="" class="reveal img-responsive reveal-content image-center" width="225px" height="225px">
+          <h3>David A.</h3>
+          <h4>Le directeur de ce projet. </h4>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+ 
+  
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+    navbarFixedTopAnimation();
+  });
+</script>
+
+<footer class="footer-container white-text-container">
+  <div class="container">
+    <div class="row">
+
+     
+      <div class="col-xs-12">
+        <h3>Pur India</h3>
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-7">
+            <p>Optimize clean water.
+            </p>
+          </div>
+          <div class="col-xs-12 col-sm-5">
+            <p class="text-right">
+              <a href="https://docs.google.com/document/d/1i3UHc-_8UsQ2NImhEzvMy43Azb5kfoNnXu7PqffXva4/edit" class="source" target="_blank" title="">
+                  Les sources
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+    navActivePage();
+    scrollRevelation('.reveal');
+  });
+</script>
+
+<script type="text/javascript" src="./main.0cf8b554.js"></script>
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.5/TweenMax.min.js'></script><script  src="./script.js"></script>
+
+<!--map-->
+<script>
+  // position we will use later
+  var lat = 22.52;
+  var lon = 88.24;
+
+  // initialize map
+  map = L.map('mapDiv').setView([lat, lon], 4);
+
+  // set map tiles source
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
+    maxZoom: 13,
+  }).addTo(map);
+
+  // add marker to the map
+  marker = L.marker([lat, lon]).addTo(map);
+
+  // add popup to the marker
+  marker.bindPopup("<b>Calcutta :</b><br />Jana Para").openPopup();
+</script>
+
+<script  src="./expand.js"></script>
+</body>
+  
+</html>
